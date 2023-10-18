@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: steve -->
+<!-- DateCreated: 10/23/2022 4:21:45 AM -->
+<GameData>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_NERO</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_STANDARD_RED_MD</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_YELLOW_MD</SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameData>

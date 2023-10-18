@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rome_Nero_Text -->
+<!-- Author: get19 -->
+<!-- DateCreated: 6/6/2022 9:38:42 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_LEADER_NERO_NAME" Language="zh_Hans_CN">
+			<Text>尼禄·克劳狄乌斯</Text>
+		</Replace>
+		
+		<!-- 黄金剧场文本 -->
+		<Replace Tag="LOC_BUILDING_DOMUS_AUREA_NAME" Language="zh_Hans_CN">
+			<Text>七色光华的黄金剧场</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DOMUS_AUREA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>尼禄作为领袖时罗马的特殊建筑，替代竞技场。提供1[ICON_GreatWork_Writing]著作巨作槽位，等于大竞技场区域相邻加成的[Icon_Gold]金币加成，和专家岗位。专家提供+1[Icon_Culture]文化，+2[Icon_Gold]金币，和+2[ICON_GreatWriter]大作家点数。</Text>
+		</Replace>
+		
+		<!-- 大竞技场文本 -->
+		<Replace Tag="LOC_DISTRICT_CIRCUS_NAME" Language="zh_Hans_CN">
+			<Text>维纳斯赤红大竞技场</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CIRCUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>尼禄作为领袖时罗马的特殊区域，替代娱乐区域。从每个相邻区域获得+1[Icon_Culture]文化值。此区域解锁更早，造价更低，并且不需要人口。</Text>
+		</Replace>
+		
+		<!-- 尼禄祭文本 -->
+		<Replace Tag="LOC_PROJECT_NERO_FEST_NAME" Language="zh_Hans_CN">
+			<Text>梦想与希望的尼禄祭</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NERO_FEST_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>尼禄祭</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NERO_FEST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>尼禄作为领袖时罗马的特殊项目。完成时从每点宜居度获得5[Icon_Culture]文化，5[Icon_Gold]金币，和15[Icon_Tourism]旅游业绩。</Text>
+		</Replace>
+		
+		<!-- 相邻加成文本 -->
+		<Replace Tag="LOC_DISTRICT_DISTRICT_AMENITY" Language="zh_Hans_CN">
+			<Text>+1[Icon_Culture]文化值来自相邻区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_THEATER_CIRCUS" Language="zh_Hans_CN">
+			<Text>+2[Icon_Culture]文化值来自相邻大竞技场。</Text>
+		</Replace>
+		<Replace Tag="LOC_THEATER_BATH" Language="zh_Hans_CN">
+			<Text>+2[Icon_Culture]文化值来自相邻浴场。</Text>
+		</Replace>
+		
+		<!-- 领袖特性文本 -->
+		<Replace Tag="LOC_TRAIT_LEADER_NERO_NAME" Language="zh_Hans_CN">
+			<Text>荣华帝政</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NERO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>剧院广场从相邻浴场获得+2[Icon_Culture]文化并可举办特殊项目尼禄祭。[ICON_GreatWork_Writing]著作额外获得50%[Icon_Tourism]旅游业绩并从每个[Icon_Science]学院，[Icon_Culture]剧院，[Icon_Production]工业区，[Icon_Gold]商业区，[Icon_Faith]圣地，和[Icon_Food]港口获得一点相应产出；[ICON_GreatWork_Music]音乐巨作碍于尼禄小姐独特的品味没有额外加成，但拥有200%[Icon_Tourism]额外旅游业绩。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NERO" Language="zh_Hans_CN">
+			<Text>尼禄·克劳狄乌斯，奥林匹亚之花，用艺术和财富引导罗马吧。您的人民将目睹您的才华，而世界将目睹罗马的荣光。现在，向着新的世界出发吧，去倾听，去称赞，然后，去歌颂！</Text>
+		</Replace>
+		
+		<!-- just a dummy -->
+		<Replace Tag="LOC_BUILDING_NERO_DUMMY_NAME" Language="zh_Hans_CN">
+			<Text>祭典已举办。—— 头痛的尼禄</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NERO_CAMPUS_DUMMY_NAME" Language="zh_Hans_CN">
+			<Text>学院已巡视。—— 头痛的尼禄</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NERO_THEATER_DUMMY_NAME" Language="zh_Hans_CN">
+			<Text>剧院已巡视。—— 头痛的尼禄</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NERO_HOLYSITE_DUMMY_NAME" Language="zh_Hans_CN">
+			<Text>圣地已巡视。—— 头痛的尼禄</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NERO_COMMERCIAL_DUMMY_NAME" Language="zh_Hans_CN">
+			<Text>商业中心已巡视。—— 头痛的尼禄</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NERO_INDUSTRY_DUMMY_NAME" Language="zh_Hans_CN">
+			<Text>工业区已巡视。—— 头痛的尼禄</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_NERO_HARBOR_DUMMY_NAME" Language="zh_Hans_CN">
+			<Text>港口已巡视。—— 头痛的尼禄</Text>
+		</Replace>
+
+		<!-- 领袖外交文本 -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>唔，真亏汝选择了余！真是懂行啊！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>汝还不够美丽，要加油啊。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>来吧，勇者啊！成为余，也就是罗马的朋友吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>唔嗯，这样好，非常好！在远离罗马的世界里也遇见了优秀的勇者啊！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>唔唔……是否略有些操之过急？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>不解风情也要有个限度吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>华丽地起舞吧。 </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>代表团？余会好好招待他们的，只管举杯庆祝吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>太不识趣了哦？宴会还没为汝敞开呢。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>为汝带来的奖品由余精心挑选，一定要好好使用哦！神祖罗穆路斯看了也一定会拍胸脯打包票的！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>哦……？居然玩这招。居然这样做啊！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>啊啊……一看到汝头就开始疼了……还是不讲话为妙……（谴责你）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>余为尼禄·克劳狄乌斯。汝的声音很响亮呢。余很喜欢。今后汝定要称呼余的名字，最依靠余。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>第三届尼禄祭兼罗马大感谢促销火热进行中，想来惠顾一下吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>好。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>此乃罗马，好好享受吧！过后也请和余说说你的首都。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>你可以靠近我。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>唔嗯！ 这才是所谓的繁华之帝政，蔷薇之喝彩！余很满意，让余来献唱一首庆祝吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>真不懂得体察人心……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>唔嗯，再一次对余刮目相看了吗！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>鲜花生命短暂。由于不舍得污损服饰，余先回去了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>比社交界还要快～！战斗才刚刚开始吧？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>唔嗯，差不多就这样吧。余累啦。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>唔嗯，通过吧。条条大路通罗马！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>老实等着吧。 </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>余要通过此处，来招待余吧！奖励都已经准备好了哦。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>看见这祭典了吗，回去好好休息，不要打扰余。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>但愿汝能配得上当余的对手。 </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>这趟旅途充满着光辉与慈爱，我们会离开。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>尽然能够将可以复苏三次的余逼入如此绝境……</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>实在非常遗憾……这家皇帝专卖店也很快就要关门了。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NERO_ANY" Language="zh_Hans_CN">
+			<Text>购物就该愉快点。好好斟酌吧。</Text>
+		</Replace>
+	
+		<!-- 文明百科文本 -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+		  <Text>通过普及大竞技场和黄金剧场，艺术家（自称）尼禄致力于将罗马打造为世界文化之都。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>将浴场，剧院广场，和大竞技场放置在一起，尼禄领导下的罗马可以获得大量[Icon_Culture]文化加成。在此基础上，无论是大量收集著作，还是举办独特项目尼禄祭，罗马都将成为[Icon_Culture]文化胜利的有力竞争者。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>本名是尼禄·克劳狄乌斯·恺撒·奥古斯都·日耳曼尼库斯，罗马帝政的第5代皇帝。一生充满谋略与毒之色彩的恶名昭彰的暴君，而她的死标志着朱里亚·克劳狄王朝（即开国皇帝奥古斯都的后人）至此终结。父亲是第四代皇帝克劳狄乌斯的堂兄弟格奈乌斯·多米第乌斯·阿赫诺巴尔比。其母是二代皇帝提比略的养子日耳曼尼库斯将军的女儿小阿格里皮娜，因此日耳曼尼库斯之子、三代皇帝卡利古拉是尼禄的叔父。小阿格里皮娜改嫁给了克劳狄乌斯，尼禄以其养子身份继承了皇位。Nero在拉丁语中是勇敢者的意思。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>母亲聘请了当时著名的斯多葛派哲学家塞内卡来担任尼禄的家庭教师，在成为皇帝之前拥有出众的才干，据说因为她的公正、能干，而屡次被带入过重要的诉讼里去，少年时便在元老院以希腊语和拉丁语发表过演说。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>以17岁的年龄便继承了皇位。其统治期间致力于发展罗马城作为地中海的文化之都的地位，本人也亲自设计了金宫，其遗址在今天的罗马依然可见。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>56年，效仿希腊的奥林匹克设立五年开幕一次的竞技会“尼禄祭”。开设音乐、体育、骑马三个部门，自己也在其中若干个项目中出场。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>在位早期的尼禄完全是以明君模样示人，热情参加公共事务，还不忘以极低的姿态对待下属，给人民留下了亲切形象；但在她以相当血腥的方式干掉了母亲和老师大权独揽之后，对元老和贵族们的敬意开始淡灭，逐渐变得残暴荒淫，使得这位罗马皇帝在史书中的形象大打折扣，被世人称之为“嗜血的尼禄”。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>统治期间镇压了刚刚被纳入帝国疆域内的不列颠尼亚的起义，领导者布狄卡女王死在和罗马人的战争之中。在位后期时罗马巴勒斯坦的总督的暴政引发了当地犹太居民的全面反抗，漫长的战争最终导致了犹太民族离散两千年。尼禄执政时期和帕提亚帝国保持着友好的关系，据说在皇帝被推翻后帕提亚没有趁虚而入的原因是照顾尼禄的国家。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>69年发生的叛乱中被逐下王座，自罗马开始逃亡。在紧要关头时觉悟逃不掉，下定了决心自杀。不过，她的最后似乎并不很痛快。「这么好的艺术家要从这个世上消失吗？」这样好几次洒泪又停下手来，最后用短剑刺了自己的喉咙。尼禄自刎之后三天都没能死去，直到一位罗马士兵发现了荒野中以为已死的皇帝并为她盖上布，此时她却又突然睁开了眼睛，对这名士兵说：“来得真晚，但辛苦你了”之后才彻底死去。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>请注意的是，尼禄本人爱好奢华、性格残酷是事实，但暴君形象有不少是后世抹黑的结果。64年的罗马大火之后城内散布着“是尼禄为了重修罗马城故意放火”的谣言，为了平息谣言，皇帝把基督徒拿来当作挡箭牌。后来基督教传遍欧洲之后大力宣扬尼禄的残暴事迹，包括纵火焚城。还有一部分抹黑来源于当时罗马的贵族阶层，因为尼禄在位期间奉行反贵族亲平民的政策伤害了贵族的利益，因此把握着话语权的他们在尼禄被推翻之后对她大加抹黑。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>更请注意的是，以上内容均为型月世界中尼禄的设定，请不要代入到现实当中。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_QUOTE" Language="zh_Hans_CN">
+			<Text>唔姆！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_TITLE" Language="zh_Hans_CN">
+			<Text>尼禄·克劳狄乌斯</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_CIRCUS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>Roman circus是古罗马一种用于举办公众活动的大型开放式场所。和剧院，古罗马剧场，和一些小型的体育场所一样，circus是罗马人民的主要娱乐场所之一，主要举办战车比赛，赛马，角斗士决斗，以及为庆祝帝国重要活动所举办的表演。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_DOMUS_AUREA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>使用魔力来形成、重现出她生前于罗马兴建的剧场。她将亲自设计的剧场起名为Domus Aurea。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_DOMUS_AUREA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>据说这个剧场开张后，许多观众在第一次公演途中离去了。为此愤慨的她，在第二次公演时将出入口全部封锁了，直到演出落幕为止，哪怕是一个人都没有出到外面去。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_DOMUS_AUREA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>她在作为一个皇帝之前，就深信不疑自己是个“匹敌乐神阿波罗的艺术家”与“匹敌太阳神的战车驭手”。这是唯有抱持着这种想法的她才能够完成的，与固有结界相似而不相同的大魔术。达成自己愿望的绝对皇帝圈。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

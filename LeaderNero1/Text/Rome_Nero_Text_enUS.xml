@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rome_Nero_Text_enUS -->
+<!-- Author: get19 -->
+<!-- DateCreated: 7/31/2022 12:20:00 AM -->
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_LEADER_NERO_NAME">
+			<Text>Nero Claudius</Text>
+		</Row>
+
+		<!-- text for Domus Aurea -->
+		<Row Tag="LOC_BUILDING_DOMUS_AUREA_NAME">
+			<Text>Domus Aurea</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DOMUS_AUREA_DESCRIPTION">
+			<Text>A building unique to Rome when Nero Claudius is the leader, replaces arena. Provides 1[ICON_GreatWork_Writing]writing greatwork slot, [Icon_Gold]gold equal to the adjacency bonus of district Roman Circus, and an expert slot. Expert provides +1[Icon_Culture]culture, +2[Icon_Gold]gold, and +2[ICON_GreatWriter]Great Writer point.</Text>
+		</Row>
+
+		<!-- text for Circus -->
+		<Row Tag="LOC_DISTRICT_CIRCUS_NAME">
+			<Text>Roman Circus</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_CIRCUS_DESCRIPTION">
+			<Text>A district unique to Rome when Nero Claudius is the leader, replaces entertainment complex. +1[Icon_Culture]culture for every adjacent district. This district is unlocked earlier, cheaper, and does not require population.</Text>
+		</Row>
+
+		<!-- text for Nero Festival -->
+		<Row Tag="LOC_PROJECT_NERO_FEST_NAME">
+			<Text>Nero Festival</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_NERO_FEST_SHORT_NAME">
+			<Text>Nero Festival</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_NERO_FEST_DESCRIPTION">
+			<Text>A project unique to Rome when Nero Claudius is the leader. Provides 5[Icon_Culture]culture, 5[Icon_Gold]gold, and 15[Icon_Tourism]tourism from every amenity upon completion.</Text>
+		</Row>
+
+		<!-- text for adjacency -->
+		<Row Tag="LOC_DISTRICT_DISTRICT_AMENITY">
+			<Text>+1[Icon_Culture]culture from adjacent district.</Text>
+		</Row>
+		<Row Tag="LOC_THEATER_CIRCUS">
+			<Text>+2[Icon_Culture]culture from adjacent Roman Circus.</Text>
+		</Row>
+		<Row Tag="LOC_THEATER_BATH">
+			<Text>+2[Icon_Culture]culture from adjacent Bath.</Text>
+		</Row>
+
+		<!-- text for leader ability -->
+		<Row Tag="LOC_TRAIT_LEADER_NERO_NAME">
+			<Text>Imperium of the Maiden's Flowery Words</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_NERO_DESCRIPTION">
+			<Text>Theater gains +2[Icon_Culture]culture from Bath and can hold special project Nero Festival. [ICON_GreatWork_Writing]Greatwork of Writing gains +50%[Icon_Tourism] tourism and +1 corresponding yield from each [Icon_Science]campus, [Icon_Culture]theater, [Icon_Production]industrial zone, [Icon_Gold]commercial hub, [Icon_Faith]holysite, and[Icon_Food]harbor; [ICON_GreatWork_Music]Greatwork of Music does not have additional yields due to the Nero's special taste in music, but gains +200%[Icon_Tourism].</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_NERO">
+			<Text>Nero Claudius, Olympics' Bloomer, lead Rome with fortune and art. Your people will see your talent, and the world will see Rome's glory. Now, march into the new world. The stage is set, the curtain is raised, and the chapter will be written!</Text>
+		</Row>
+
+		<!-- text for leader diplomacy quotes -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NERO_ANY">
+			<Text>Umu, you have chosen the right one! You sure know how to tell the difference!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NERO_ANY">
+			<Text>You are still on your way to beauty.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NERO_ANY">
+			<Text>Come, hero! Be a friend of me, and of Rome!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NERO_ANY">
+			<Text>Umu, I'd like that! I'd really like that! Being able to meet such a brave hero in a world so far from Rome!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NERO_ANY">
+			<Text>U-umu... Overdoing it a bit, eh?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NERO_ANY">
+			<Text>Could you be any more uncivilized?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NERO_ANY">
+			<Text>Let me show you how we dance!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NERO_ANY">
+			<Text>Delegation? I will host them well. Let's have a toast and a good time!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NERO_ANY">
+			<Text>How tactless. The festival is not open for you yet.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NERO_ANY">
+			<Text>Look at this incredible selection! I'm sure even our divine father, Romulus, would approve!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NERO_ANY">
+			<Text>Oh, there it is... For better or for worse...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NERO_ANY">
+			<Text>Hmm... What a terrible name... Not going to speak with you again! It's only going to make my headache worse. (Denounces you)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NERO_ANY">
+			<Text>I am Nero Claudius. There sure is a lot of tension in your voice. I kind of like it. I want you to keep saying my name, and I want you to depend on me the most.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NERO_ANY">
+			<Text>Third year of Nero Fest and Rome's great appreciation sale going on, want to take a look?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NERO_ANY">
+			<Text>Sure.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NERO_ANY">
+			<Text>This is Rome, do not hesitate to enjoy! After that, talk with me about your capital.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_NERO_ANY">
+			<Text>You may approach.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NERO_ANY">
+			<Text>Umu! This is the Flowery Imperium, an ovation of roses! I am content! Let me sing for celebration!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NERO_ANY">
+			<Text>Can't you see the situation?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NERO_ANY">
+			<Text>Rekindle your love!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NERO_ANY">
+			<Text>A flower lives only briefly. I don't want to ruin my outfit, so I'll take my leave here.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NERO_ANY">
+			<Text>This ended faster than a high society party! The battle just started right?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NERO_ANY">
+			<Text>Umu, so this is about it. I am taking a rest.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_NERO_ANY">
+			<Text>Umu, take your way. All roads lead to Rome!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NERO_ANY">
+			<Text>Be good and wait there a bit. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NERO_ANY">
+			<Text>I am passing here, so come host me! Of course, the rewards for you have been prepared.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NERO_ANY">
+			<Text>See the festival? Go back, have a good rest, and do not disturb me.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_NERO_ANY">
+			<Text>I hope you'll be a formidable opponent.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_NERO_ANY">
+			<Text>This journey has been beautiful and brilliant, we will leave.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NERO_ANY">
+			<Text>I can revive myself three times, so you driving me into a corner is impressive.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NERO_ANY">
+			<Text>It's truely regrettable, but this imperial shop is going to close before long... </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NERO_ANY">
+			<Text>You need to enjoy yourself when shopping. Take your time and look all you want.</Text>
+		</Row>
+
+		<!-- just a dummy -->
+		<Row Tag="LOC_BUILDING_NERO_DUMMY_NAME">
+			<Text>Nero's dummy</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NERO_CAMPUS_DUMMY_NAME">
+			<Text>Nero's campus dummy</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NERO_THEATER_DUMMY_NAME">
+			<Text>Nero's theater dummy</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NERO_HOLYSITE_DUMMY_NAME">
+			<Text>Nero's holysite dummy</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NERO_COMMERCIAL_DUMMY_NAME">
+			<Text>Nero's commercial dummy</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NERO_INDUSTRY_DUMMY_NAME">
+			<Text>Nero's industry dummy</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NERO_HARBOR_DUMMY_NAME">
+			<Text>Nero's harbor dummy</Text>
+		</Row>
+
+		<!-- text for civilopedia -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_CAPSULE_BODY">
+			<Text>With Nero in charge, the self-proclaimed artist is committed to make Rome an expanding country of arts and culture.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_DETAILED_BODY">
+			<Text>Rome gets a huge amount of [Icon_Culture]culture by putting bath, theater, and circus together. From here, Nero can either focus on gathering greatworks from the world or hosting Nero Fests, and both paths will make Rome a threat to win by [Icon_Culture]culture.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_1">
+			<Text>Her True Name is Nero Claudius Caesar Augustus Germanicus, the fifth emperor of the Roman Empire. She is an infamous tyrant whose entire life was colored by conspiracy and poison.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_QUOTE">
+			<Text>Umu!</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_TITLE">
+			<Text>Nero Claudius</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_CIRCUS_CHAPTER_HISTORY_PARA_1">
+			<Text>Roman circus was a large open-air venue used for public events in the ancient Roman Empire. Along with theatres, amphitheatres, and the similar but much smaller stadiums, circuses were one of the main entertainment sites of the time. Circuses were venues for chariot races, horse races, gladiatorial combat, and performances that commemorated important events of the Empire were performed there.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_2">
+			<Text>Her mother hired Seneca, a famous Stoic philosopher at that time, as Nero's tutor. Before she became emperor, she had outstanding talents. It is said that because of her impartiality and ability, she was repeatedly brought into important lawsuits and had gave speeches at the Senate in both Greek and Latin.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_3">
+			<Text>She inherited the throne at the age of 17. During her reign, she devoted herself to developing the status of Rome as the cultural capital of the Mediterranean. She also designed the Golden Palace herself, and its ruins can still be seen in Rome today.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_4">
+			<Text>In 56, following the example of the Olympic Games in Greece, the "Nero Festival" was established as an athletics event that opened every five years. There were three departments of music, sports, and horse riding, and Nero had played in several of them.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_5">
+			<Text>In the early days of her reign, Nero showed herself as a wise monarch, enthusiastically participated in public affairs, and did not forget to treat her subordinates with a very low profile, leaving a friendly image for the people; but after she killed her mother and teacher in a bloody way for power, the respect from the elders and nobles began to fade, and gradually became brutal and licentious, which greatly reduced the image of the Roman emperor in the history books, and was called "Bloodthirsty Nero" by the world.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_6">
+			<Text>During her reign, Nero had suppressed the uprising of Britannia, which had just been incorporated into the empire. The leader, Queen Boudica, died in the war with the Romans. In the later period of her reign, local Jewish residents triggered a full-scale resistance against the brutal governor of Palestine. The long war eventually led to the separation of the Jewish people for two thousand years. Nero maintained a friendly relationship with the Parthia Empire during her reign. It is said that the reason why Parthia did not take advantage of the opportunity after the emperor was overthrown was to take care of Nero's country.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_7">
+			<Text>During the rebellion in 69, Nero was deposed from the throne and fled from Rome. At the critical juncture, she realized that she couldn't escape and made up her mind to commit suicide. However, her end didn't seem very happy. "Is such a good artist going to disappear from this world?" After crying several times like this, she stopped, and finally stabbed herself in the throat with a dagger. Nero did not die for three days after committing suicide, until a Roman soldier found the emperor who was thought to be dead in the wilderness and covered her with a cloth. At this time, she suddenly opened her eyes and said to the soldier: "It's really late, but thank you" before dying completely.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_8">
+			<Text>Please note that while it is true that Nero herself loves luxury and has a cruel personality, many of the image of a tyrant is the result of smearing by later generations. After the Great Fire of Rome in 1964, rumors spread in the city that "Nero deliberately set fire to rebuild the city of Rome". In order to quell the rumors, the emperor used Christians as a shield. Later, after Christianity spread throughout Europe, Nero's brutal deeds were vigorously promoted, including setting fire to the city. Another part of the slander came from the aristocratic class in Rome at that time, because Nero pursued an anti-noble and pro-commoner policy during his reign that hurt the interests of the nobility, so they, who had the right to speak, smeared Nero after she was overthrown.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NERO_CHAPTER_HISTORY_PARA_9">
+			<Text>Please note, again, that the above content is the setting of Nero in TypeMoon, please do not take it as real history.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_DOMUS_AUREA_CHAPTER_HISTORY_PARA_1">
+			<Text>Invitation to the Golden Debauchery Theater. An absolute emperor's field that fulfills her desires. A magical recreation of the theatre "Domus Aurea" she designed herself and built in Rome when she was alive.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_DOMUS_AUREA_CHAPTER_HISTORY_PARA_2">
+			<Text>The emperor who put the happiness and prosperity of the Roman people first. Also enjoyed living life, especially when it came to musical theater.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_DOMUS_AUREA_CHAPTER_HISTORY_PARA_3">
+			<Text>She prided herself on her absolute superiority (*it was only her own confidence.) Those who heard her sing were traumatized for three days and three nights, and saw dreams (nightmares) of roses.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

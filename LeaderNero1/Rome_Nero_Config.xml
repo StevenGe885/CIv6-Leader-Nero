@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rome_Nero_Config -->
+<!-- Author: get19 -->
+<!-- DateCreated: 6/6/2022 9:36:22 PM -->
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+			<CivilizationName>LOC_CIVILIZATION_ROME_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_ROME</CivilizationIcon>
+			<LeaderType>LEADER_NERO</LeaderType>
+			<LeaderName>LOC_LEADER_NERO_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_NERO</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_ROME</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_NERO_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_NERO_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_NERO</LeaderAbilityIcon>
+			<Portrait>LEADER_NERO_NEUTRAL_2</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+			<LeaderType>LEADER_NERO</LeaderType>
+			<Type>UNIT_ROMAN_LEGION</Type>
+			<Icon>ICON_UNIT_ROMAN_LEGION</Icon>
+			<Name>LOC_UNIT_ROMAN_LEGION_NAME</Name>
+			<Description>LOC_UNIT_ROMAN_LEGION_DESCRIPTION</Description>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+			<LeaderType>LEADER_NERO</LeaderType>
+			<Type>DISTRICT_BATH</Type>
+			<Icon>ICON_DISTRICT_BATH</Icon>
+			<Name>LOC_DISTRICT_BATH_NAME</Name>
+			<Description>LOC_DISTRICT_BATH_DESCRIPTION</Description>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+			<LeaderType>LEADER_NERO</LeaderType>
+			<Type>BUILDING_DOMUS_AUREA</Type>
+			<Icon>ICON_BUILDING_DOMUS_AUREA</Icon>
+			<Name>LOC_BUILDING_DOMUS_AUREA_NAME</Name>
+			<Description>LOC_BUILDING_DOMUS_AUREA_DESCRIPTION</Description>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+			<LeaderType>LEADER_NERO</LeaderType>
+			<Type>DISTRICT_CIRCUS</Type>
+			<Icon>ICON_DISTRICT_CIRCUS</Icon>
+			<Name>LOC_DISTRICT_CIRCUS_NAME</Name>
+			<Description>LOC_DISTRICT_CIRCUS_DESCRIPTION</Description>
+			<SortIndex>40</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rome_Nero_Projects -->
+<!-- Author: get19 -->
+<!-- DateCreated: 7/4/2022 11:43:28 PM -->
+<GameData>
+	<Types>
+		<Row Type="PROJECT_NERO_FEST" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_NERO_FEST" Name="LOC_PROJECT_NERO_FEST_NAME" ShortName="LOC_PROJECT_NERO_FEST_SHORT_NAME" 
+			 Description="LOC_PROJECT_NERO_FEST_DESCRIPTION" 
+			 PrereqDistrict="DISTRICT_THEATER" Cost="65" AdvisorType="ADVISOR_CULTURE" 
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500" 
+			 AmenitiesWhileActive="1" UnlocksFromEffect="true"/>
+	</Projects>
+	<ProjectCompletionModifiers>
+		<Row>
+			<ProjectType>PROJECT_NERO_FEST</ProjectType>
+			<ModifierId>MODIFIER_DO_NOTHING</ModifierId>
+		</Row>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_DO_NOTHING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_DO_NOTHING</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_DO_NOTHING</ModifierId>
+			<Name>Amount</Name>
+			<Value>0</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>
