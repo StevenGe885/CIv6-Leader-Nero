@@ -29,19 +29,20 @@
 			 Maintenance="1" CitizenSlots="1" Entertainment="2"
 			 TraitType="TRAIT_CIVILIZATION_BUILDING_DOMUS_AUREA"/>
 		<Row BuildingType="BUILDING_NERO_DUMMY" Name="LOC_BUILDING_NERO_DUMMY_NAME" PrereqDistrict="DISTRICT_CITY_CENTER"
-			Cost="1" EnabledByReligion="true" />
+			Cost="1" MustPurchase="1" PurchaseYield="NULL" />
 		<Row BuildingType="BUILDING_NERO_CAMPUS_DUMMY" Name="LOC_BUILDING_NERO_CAMPUS_DUMMY_NAME" PrereqDistrict="DISTRICT_CITY_CENTER"
-			Cost="1" EnabledByReligion="true" />
+			Cost="1" MustPurchase="1" PurchaseYield="NULL" />
 		<Row BuildingType="BUILDING_NERO_THEATER_DUMMY" Name="LOC_BUILDING_NERO_THEATER_DUMMY_NAME" PrereqDistrict="DISTRICT_CITY_CENTER"
-			Cost="1" EnabledByReligion="true" />
+			Cost="1" MustPurchase="1" PurchaseYield="NULL" />
 		<Row BuildingType="BUILDING_NERO_HOLYSITE_DUMMY" Name="LOC_BUILDING_NERO_HOLYSITE_DUMMY_NAME" PrereqDistrict="DISTRICT_CITY_CENTER"
-			Cost="1" EnabledByReligion="true" />
+			Cost="1" MustPurchase="1" PurchaseYield="NULL" />
 		<Row BuildingType="BUILDING_NERO_COMMERCIAL_DUMMY" Name="LOC_BUILDING_NERO_COMMERCIAL_DUMMY_NAME" PrereqDistrict="DISTRICT_CITY_CENTER"
-			Cost="1" EnabledByReligion="true" />
+			Cost="1" MustPurchase="1" PurchaseYield="NULL" />
 		<Row BuildingType="BUILDING_NERO_INDUSTRY_DUMMY" Name="LOC_BUILDING_NERO_INDUSTRY_DUMMY_NAME" PrereqDistrict="DISTRICT_CITY_CENTER"
-			Cost="1" EnabledByReligion="true" />
+			Cost="1" MustPurchase="1" PurchaseYield="NULL" />
 		<Row BuildingType="BUILDING_NERO_HARBOR_DUMMY" Name="LOC_BUILDING_NERO_HARBOR_DUMMY_NAME" PrereqDistrict="DISTRICT_CITY_CENTER"
-			Cost="1" EnabledByReligion="true" />
+			Cost="1" MustPurchase="1" PurchaseYield="NULL" />
+		<!-- old dummy building: EnabledByReligion="true" -->
 	</Buildings>
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_DOMUS_AUREA" YieldType="YIELD_CULTURE" YieldChange="2"/>
