@@ -48,7 +48,7 @@
 		
 		<!-- 领袖特性文本 -->
 		<Replace Tag="LOC_TRAIT_LEADER_NERO_NAME" Language="zh_Hans_CN">
-			<Text>荣华帝政</Text>
+			<Text>少女讴歌的荣华帝政</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NERO_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>剧院广场从相邻浴场获得+2[Icon_Culture]文化并可举办特殊项目尼禄祭。[ICON_GreatWork_Writing]著作额外获得50%[Icon_Tourism]旅游业绩并从每个[Icon_Science]学院，[Icon_Culture]剧院，[Icon_Production]工业区，[Icon_Gold]商业区，[Icon_Faith]圣地，和[Icon_Food]港口获得一点相应产出；[ICON_GreatWork_Music]音乐巨作碍于尼禄小姐独特的品味没有额外加成，但拥有200%[Icon_Tourism]额外旅游业绩。</Text>

@@ -73,4 +73,15 @@
 			<Value>15</Value>
 		</Row>
 	</ModifierArguments>
+
+	<!-- excludes dummy building from appearing in Civilopedia -->
+	<CivilopediaPageExcludes>
+		<Row SectionId="BUILDINGS" PageId="BUILDING_NERO_DUMMY"/>
+		<Row SectionId="BUILDINGS" PageId="BUILDING_NERO_CAMPUS_DUMMY"/>
+		<Row SectionId="BUILDINGS" PageId="BUILDING_NERO_THEATER_DUMMY"/>
+		<Row SectionId="BUILDINGS" PageId="BUILDING_NERO_HOLYSITE_DUMMY"/>
+		<Row SectionId="BUILDINGS" PageId="BUILDING_NERO_COMMERCIAL_DUMMY"/>
+		<Row SectionId="BUILDINGS" PageId="BUILDING_NERO_INDUSTRY_DUMMY"/>
+		<Row SectionId="BUILDINGS" PageId="BUILDING_NERO_HARBOR_DUMMY"/>
+	</CivilopediaPageExcludes>
 </GameData>
