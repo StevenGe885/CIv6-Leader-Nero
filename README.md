@@ -1,7 +1,7 @@
 # Civ6-Leader-Nero
 As stated, a Civ 6 mod featuring Nero Claudius from Fate series as a new leader of Rome
 
-Nero <br />
+Nero <br/>
 UA: Imperium of the Maiden's Flowery Words <br />
 Theater gains +2 culture from Bath and can hold special project Nero Festival. Greatwork of Writing gains +50% tourism and +1 corresponding yield from each campus (science), theater (culture), industrial zone (production), commercial hub (gold), holysite (faith), and harbor (food); Greatwork of Music does not have additional yields due to Nero's special taste in music, but gains +200% tourism. <br />
 Note 1: Due to Firaxis' inability, this ability can not infinitely stack. It is now capped at 16 but can be increased if people want more. <br />
